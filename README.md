@@ -1,2 +1,2 @@
-# duotail-haraka-chart
-Helm chart for duotail haraka server
+# duotail-helm-charts
+Helm chart for duotail project
