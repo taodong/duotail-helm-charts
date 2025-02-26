@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  collector:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-02-26T18:38:11.364206606Z"
+    description: A Helm chart for Duotail Collector server
+    digest: 7f0f3950daf1bb7923bba7ba7c16143ca91b82b66b7e4b68363150c37e699a7b
+    name: collector
+    type: application
+    urls:
+    - https://github.com/taodong/duotail-helm-charts/releases/download/collector-0.1.0/collector-0.1.0.tgz
+    version: 0.1.0
   haraka:
   - apiVersion: v2
     appVersion: 1.0.0
@@ -11,4 +22,4 @@ entries:
     urls:
     - https://github.com/taodong/duotail-helm-charts/releases/download/haraka-0.1.0/haraka-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-21T18:58:33.444265327Z"
+generated: "2025-02-26T18:38:11.364212377Z"
