@@ -35,6 +35,16 @@ entries:
   kcat:
   - apiVersion: v2
     appVersion: latest
+    created: "2025-03-26T21:53:40.820249685Z"
+    description: A Helm chart for Kafka Cat
+    digest: d32abd85c67e817e45553fd458bbf7c916d9dda9c9dde32a295bcbdbfd5acd9f
+    name: kcat
+    type: application
+    urls:
+    - https://github.com/taodong/duotail-helm-charts/releases/download/kcat-0.1.2/kcat-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: latest
     created: "2025-03-26T19:45:09.4807032Z"
     description: A Helm chart for Kafka Cat
     digest: 826e086502526f0ae82e1e3cd9dbd7ab9794c94f22de76d8eac29f2afb0f2867
@@ -64,4 +74,4 @@ entries:
     urls:
     - https://github.com/taodong/duotail-helm-charts/releases/download/postfix-0.1.0/postfix-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-26T19:45:09.480718428Z"
+generated: "2025-03-26T21:53:40.820271196Z"
