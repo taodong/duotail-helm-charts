@@ -87,16 +87,20 @@ resources: {}
 
 # This is to setup the liveness and readiness probes more information can be found here: https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/
 livenessProbe:
-  tcpSocket:
-    port: 8080
-  initialDelaySeconds: 10
+  exec:
+    command:
+      - which
+      - kcat
+  initialDelaySeconds: 5
   periodSeconds: 30
   timeoutSeconds: 5
   failureThreshold: 5
 
 readinessProbe:
-  tcpSocket:
-    port: 8080
+  exec:
+    command:
+      - kcat
+      - -V
   initialDelaySeconds: 5
   periodSeconds: 30
   timeoutSeconds: 5
