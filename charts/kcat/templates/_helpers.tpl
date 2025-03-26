@@ -69,4 +69,4 @@ Environment variables
   - name: {{ .name | quote }}
     value: {{ .value | quote }}
 {{- end }}
-{{- end
+{{- end }}
