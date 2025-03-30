@@ -13,6 +13,16 @@ entries:
     version: 0.1.0
   haraka:
   - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2025-03-30T05:20:23.327653357Z"
+    description: A Helm chart for Duotail Haraka server
+    digest: e1a3e98c537763bbcd21cf406afb858db6d476d72bc7848a60971d69365a377f
+    name: haraka
+    type: application
+    urls:
+    - https://github.com/taodong/duotail-helm-charts/releases/download/haraka-0.1.2/haraka-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 1.0.0
     created: "2025-03-10T21:48:06.085896227Z"
     description: A Helm chart for Duotail Haraka server
@@ -74,4 +84,4 @@ entries:
     urls:
     - https://github.com/taodong/duotail-helm-charts/releases/download/postfix-0.1.0/postfix-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-26T21:53:40.820271196Z"
+generated: "2025-03-30T05:20:23.327673715Z"
