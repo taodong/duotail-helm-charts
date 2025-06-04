@@ -125,3 +125,12 @@ affinity: {}
 
 hostNetwork: false
 dnsPolicy: ClusterFirst
+
+# Environment parameters used for sasl authentication
+env:
+  - name: POSTFIX_DOMAIN
+    value: "example.com"
+  - name: POSTFIX_USERNAME
+    value: "relayuser"
+  - name: POSTFIX_PASSWORD
+    value: "relaypassword"
