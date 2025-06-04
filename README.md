@@ -9,4 +9,5 @@ Helm chart for duotail project
 | dnsPolicy   | string  | `ClusterFirst`  | Set DNS policy for the pod         |
 
 ### Release Notes
-- **0.1.2**: Enable sasl authentication for postfix
+- **~~0.1.2~~**: _**Spoiled image release**_
+- **0.1.3**: Enable sasl authentication for postfix
