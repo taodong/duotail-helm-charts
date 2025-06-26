@@ -134,3 +134,7 @@ env:
     value: "relayuser"
   - name: POSTFIX_PASSWORD
     value: "relaypassword"
+
+# DKIM parameters
+domain: "example.com"
+selector: "default"
