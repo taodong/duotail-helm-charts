@@ -76,6 +76,16 @@ entries:
   postfix:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2025-06-26T18:27:43.317545441Z"
+    description: A Helm chart for Duotail Postfix server
+    digest: 1f4fefff967210766913cf543d7390b10cbe6377846f62b7707eb2a6a43fd8b0
+    name: postfix
+    type: application
+    urls:
+    - https://github.com/taodong/duotail-helm-charts/releases/download/postfix-0.1.4/postfix-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2025-06-04T21:39:16.829757699Z"
     description: A Helm chart for Duotail Postfix server
     digest: 7ac92be906570d29fe795e9ac6e665650962ba66e63f9bf4858057e574257062
@@ -114,4 +124,4 @@ entries:
     urls:
     - https://github.com/taodong/duotail-helm-charts/releases/download/postfix-0.1.0/postfix-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-04T21:39:16.829786302Z"
+generated: "2025-06-26T18:27:43.317577421Z"
