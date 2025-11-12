@@ -73,6 +73,17 @@ entries:
     urls:
     - https://github.com/taodong/duotail-helm-charts/releases/download/kcat-0.1.0/kcat-0.1.0.tgz
     version: 0.1.0
+  manager:
+  - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2025-11-12T19:30:32.535556395Z"
+    description: A Helm chart for Duotail Manager server
+    digest: 818c96c8e940e9c7b95603293cac8a4aced6d60e105ecea87ba5164f5d600543
+    name: manager
+    type: application
+    urls:
+    - https://github.com/taodong/duotail-helm-charts/releases/download/manager-0.1.0/manager-0.1.0.tgz
+    version: 0.1.0
   postfix:
   - apiVersion: v2
     appVersion: 1.0.0
@@ -124,4 +135,4 @@ entries:
     urls:
     - https://github.com/taodong/duotail-helm-charts/releases/download/postfix-0.1.0/postfix-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-26T18:27:43.317577421Z"
+generated: "2025-11-12T19:30:32.53558062Z"
