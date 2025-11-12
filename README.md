@@ -1,5 +1,5 @@
 # duotail-helm-charts
-Helm chart for duotail project
+Helm charts for duotail project
 
 ## Postfix
 ### Networking Options
@@ -12,3 +12,8 @@ Helm chart for duotail project
 - **~~0.1.2~~**: _**Spoiled image release**_
 - **0.1.3**: Enable sasl authentication for postfix
 - **~~0.1.4~~**: _**Spoiled image release**_
+
+## Manager
+
+### Release Notes
+- **0.1.0**: latest release
